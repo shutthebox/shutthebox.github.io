@@ -1,0 +1,83 @@
+img {
+    object-fit: contain;
+    height: 80px;
+    margin-top: 10px;
+}
+
+button {
+    font-size: larger;
+    background-color: brown;
+}
+
+#title {
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: "Modak", system-ui;
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black
+    
+}
+
+body {
+    background-color: green;
+}
+
+.numbers {
+    background-color: brown;
+    font-family: "Modak", system-ui;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black
+    
+    
+    
+}
+
+.scoreboard {
+    background-color: brown;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Modak", system-ui;
+    width: 300px;
+    font-weight: 700;
+}
+
+#players {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#diceroll {
+    background-color: brown;
+    font-size: 20px;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+    font-family: "Modak", system-ui;
+    font-weight: 700;
+}
+
+#continuebutton {
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    padding: 5px;
+    margin-top: 10px;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+    font-size: 30px;
+    font-family: "Modak", system-ui;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
