@@ -22,6 +22,9 @@ button {
 
 body {
     background-color: green;
+    background-image: url(woodtexture.jpg);
+    background-size: 100% 1300px;
+    background-repeat: no-repeat;
 }
 
 .numbers {
@@ -38,7 +41,22 @@ body {
 }
 
 .scoreboard {
-    background-color: brown;
+
+    /* outline-width: 2px;
+    outline-color: black;
+    outline-style: solid; */
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Modak", system-ui;
+    width: 90%;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.scoreboarditem {
+
     outline-width: 2px;
     outline-color: black;
     outline-style: solid;
@@ -47,13 +65,16 @@ body {
     margin: 0px;
     font-size: 30px;
     font-family: "Modak", system-ui;
-    width: 300px;
+    width: 33%;
     font-weight: 700;
 }
 
 #players {
     padding-left: 0px;
     padding-right: 0px;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
 }
 
 #diceroll {
@@ -64,6 +85,10 @@ body {
     outline-style: solid;
     font-family: "Modak", system-ui;
     font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 90%;
 }
 
 #continuebutton {
@@ -80,4 +105,16 @@ body {
     font-weight: 700;
     justify-content: center;
     align-items: center;
+}
+
+#middlerow {
+    padding: 20px 0px 20px 0px;
+}
+
+#colnumber {
+    width: 123px !important;
+}
+
+#playersdiv {
+    width: 90%;
 }

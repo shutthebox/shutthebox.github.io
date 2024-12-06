@@ -181,20 +181,20 @@ function LoadGame () {
 
 function CreatePlayerScores (playername) {
     
-    var nameRow = document.createElement("p")
-    nameRow.setAttribute("class", "row scoreboard")
+    var nameRow = document.createElement("div")
+    nameRow.setAttribute("class", "row scoreboardrow w-100")
     nameRow.setAttribute("id", playername)
-    var tempparagraph = document.getElementById("players")
+    var tempparagraph = document.getElementById("playersdiv")
     tempparagraph.appendChild(nameRow)
-    var namePara = document.createElement("p")
+    var namePara = document.createElement("div")
     namePara.textContent = playername
-    namePara.setAttribute("class", "col scoreboard")
-    var moneyPara = document.createElement("p")
-    moneyPara.setAttribute("class", "col scoreboard")
+    namePara.setAttribute("class", "col scoreboarditem")
+    var moneyPara = document.createElement("div")
+    moneyPara.setAttribute("class", "col scoreboarditem")
     moneyPara.setAttribute("id", playername+"money")
     moneyPara.textContent = "0"
-    var scorePara = document.createElement("p")
-    scorePara.setAttribute("class", "col scoreboard")
+    var scorePara = document.createElement("div")
+    scorePara.setAttribute("class", "col scoreboarditem")
     scorePara.setAttribute("id", playername+"score")
     scorePara.textContent = "0"
     nameRow.appendChild(namePara)
